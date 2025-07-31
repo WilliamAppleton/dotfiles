@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Mako Notification Daemon
+Comment=A lightweight notification daemon for Wayland
+Exec=mako
+StartupNotify=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-condition=WAYLAND

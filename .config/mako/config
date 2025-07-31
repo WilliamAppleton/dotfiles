@@ -1,0 +1,30 @@
+# Mako notification daemon configuration for Niri
+
+font=monospace 11
+background-color=#2e3440
+text-color=#d8dee9
+border-color=#81a1c1
+border-size=2
+border-radius=5
+padding=12
+margin=8
+width=350
+height=100
+max-visible=5
+default-timeout=5000
+ignore-timeout=0
+layer=overlay
+anchor=top-right
+
+[urgency=low]
+background-color=#2e3440
+text-color=#d8dee9
+
+[urgency=normal]
+background-color=#3b4252
+text-color=#eceff4
+
+[urgency=critical]
+background-color=#bf616a
+text-color=#eceff4
+default-timeout=0
